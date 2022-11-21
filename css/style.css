@@ -1,11 +1,10 @@
-div{
-    background-color: #fea500;
-    height: 150px;
-    width: 150px;
-}
 h1{
-    color: white;
+    color: #0000ff;
+    text-align: center;
 }
-body{
-    background-color: #808080;
+span{
+    color: #ff0000;
+}
+p{
+    text-align: center;
 }
