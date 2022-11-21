@@ -1,10 +1,14 @@
-h1{
-    color: #0000ff;
-    text-align: center;
+body{
+    background-color: #faebd6;
 }
-span{
+h1{
     color: #ff0000;
+    margin-bottom: 40px;
 }
 p{
-    text-align: center;
+    margin-bottom: 10px;
+    color: #00008f;
+}
+h1 + p{
+    color: #a42423;
 }
