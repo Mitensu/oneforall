@@ -1,0 +1,11 @@
+p{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.ten{
+    background-color: blue;
+}
+.tamten{
+    opacity: 0.5;
+}
