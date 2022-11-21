@@ -1,0 +1,9 @@
+p{
+    color: pink;
+}
+h1, h3{
+    background-color: blueviolet;
+}
+h1 + h3{
+    color: cornflowerblue;
+}
