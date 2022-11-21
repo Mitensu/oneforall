@@ -1,0 +1,14 @@
+body{
+    background-color: #faebd6;
+}
+h1{
+    color: #ff0000;
+    margin-bottom: 40px;
+}
+p{
+    margin-bottom: 10px;
+    color: #00008f;
+}
+h1 + p{
+    color: #a42423;
+}
