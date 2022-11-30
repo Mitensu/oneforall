@@ -1,0 +1,1 @@
+alert("Skypt działa prawidłowo!");
