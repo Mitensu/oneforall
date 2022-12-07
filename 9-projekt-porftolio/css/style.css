@@ -165,3 +165,23 @@ section {
     margin-bottom: 15px;
     height: 100px;
 }
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+}
+.social-links .social-link {
+    color: #007bff;
+    font-size: 2.5em;
+    transition: all 0.3s;
+    padding: 0 20px;
+}
+.social-links .social-link:hover {
+    color: #777;
+}
+/* Footer styles */
+.main-footer {
+    background-color: #f2f1ed;
+    padding: 30px;
+    text-align: center;
+    color: #777;
+}
