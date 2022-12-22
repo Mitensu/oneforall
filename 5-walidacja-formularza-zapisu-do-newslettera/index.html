@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidacja formularza - warsztat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="" id="newsletter-form">
+        <ul class="errors"></ul>
+
+        <label for="fname_lname"> Imię i nazwisko</label>
+        <input type="text" name="fname_lname" id="fname_lname" placeholder="Grzegorz Nowak">
+
+        <label for="e-mail">Adres e-mail</label>
+        <input type="email" name="e-mail" id="e-mail" placeholder="Grzegorz@nowak.pl">
+
+        <input type="checkbox" name="agree-all" id="agree-all">
+        <label for="agree-all">Wyrażam zgodę na wszstkie umowy marketingowe</label><br>
+
+        <input type="checkbox" name="agree-1" id="agree-1">
+        <label for="agree-1">Wyrażam zgodę na pierwszą umowę marketingową</label><br>
+
+        <input type="checkbox" name="agree-2" id="agree-2">
+        <label for="agree-2">Wyrażam zgodę na drugą umowę marketingową</label><br>
+
+        <button type="submit" id="send"> Wyślij</button>
+
+        <script src="js/main.js"></script>
+    </form>
+</body>
+
+</html>

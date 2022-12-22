@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(154, 186, 27);
+}
+#newsletter-form {
+    font-size: 16px;
+    color: #fff;
+    padding: 30px;
+}
+[type="text"], [type="email"] {
+    display: block;
+    height: 25px;
+    width: 400px;
+}
+label {
+    display: inline-block;
+    margin-top: 10px;
+}
+ul {
+    color: red;
+}
+button {
+    background-color: #ff9300;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-weight: 700;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    color: #ff9300;
+    background-color: #fff;
+}
