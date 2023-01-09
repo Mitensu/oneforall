@@ -19,14 +19,21 @@ button {
 }
 #pracownicy #title {
    display: inline-block;
-   min-width: 510px;
 }
-/* #tytul-pracownik {
-    margin-right: 50px;
+.wyplata {
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+div#title span {
+    display: inline-block;
 }
 #tytul-czas {
-    margin-right: 140px;
+    width: 170px;
 }
-#tytul-stawka {
-    margin-right: 50px;
-} */
+#tytul-wyplata {
+    width: 170px;
+}
+#tytul-pracownik {
+    width: 150px;
+}
