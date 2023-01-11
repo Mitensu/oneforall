@@ -9,6 +9,7 @@
 p {
     text-align: center;
     margin-top: 0;
+    color: rgb(87, 195, 10);
 }
 .pracownik {
     display: inline-block;
@@ -23,7 +24,6 @@ button {
 .wyplata {
     width: 100px;
     display: inline-block;
-    border: 1px solid black;
 }
 div#title span {
     display: inline-block;
@@ -32,8 +32,12 @@ div#title span {
     width: 170px;
 }
 #tytul-wyplata {
-    width: 170px;
+    width: 115px;
 }
 #tytul-pracownik {
     width: 150px;
+    margin-left: 15px;
+}
+#tytul-stawka {
+    width: 170px;
 }

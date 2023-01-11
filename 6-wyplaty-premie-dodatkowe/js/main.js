@@ -21,6 +21,8 @@ btn.addEventListener("click", function () {
             godziny.push(ppgodziny);
         } else if (czas < 100) {
             pracownicy[i].style.backgroundColor = "red";
+            pracownicy[i].querySelector(".czas").style.backgroundColor = "red";
+            pracownicy[i].querySelector(".stawka").style.backgroundColor = "red";
             wyplata = czas * stawka
             pracownicy[i].querySelector(".wyplata").innerHTML = wyplata;
             let ppgodziny = +(pracownicy[i].querySelector(".czas").value);
